@@ -188,3 +188,18 @@ main {
     flex-direction: column;
 
 }
+.footers{
+    display: flex;
+    background-color:#FFF8F3;
+    height: 70vh;
+    text-align: center;
+}
+.left-foot{
+    display: block;
+    margin: 0 50px;
+    flex-direction: column;
+}
+.right-foot{
+    display: block;
+    margin: 0 50px;
+}
