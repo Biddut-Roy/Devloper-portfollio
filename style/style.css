@@ -45,11 +45,15 @@ nav a {
 
 .buttoncolor {
     background-color: orange;
-    color: var(--white-color, #FFF);
+    color:  #FFF;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
 
+}
+#color{
+    text-align: center;
+    margin: 20px auto;
 }
 
 .banner {
@@ -87,18 +91,20 @@ nav a {
     flex-direction: column;
     flex-shrink: 0;
 }
+
 /* main section */
-main{
+main {
     width: 1146px;
     margin: 0 auto;
 }
+
 /* section about */
 
-.about{
+.about {
     border-radius: 10px;
     background: #FFF8F3;
     height: 550px;
-    }
+}
 
 .about-title {
     color: #181818;
@@ -115,33 +121,70 @@ main{
     line-height: 30px;
     padding: 0 150px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 
 }
-.about-info{
+
+.about-info {
     text-align: center;
     padding-bottom: 2px;
     margin-bottom: 0;
 }
-.info-describtion{
+
+.info-describtion {
     margin-top: 0;
 }
-.skill{
-    padding-top: 50px;
 
+.skill {
+    padding-top: 50px;
 }
-.skill-do{
+.skill-do {
     text-align: center;
 }
-.Skill-para{
+
+.Skill-para {
     padding: 0 150px;
 }
-.skill-tag{
+
+.skill-tag {
     display: flex;
-    padding-top: 30px;
+    gap: 20px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
 }
-.more-skill{
+.more-skill {
     padding: 20px;
+}
+.resumi-container{
+ height: 100vh;
+}
+.resume-title{
+    text-align: center;
+    margin: 40px 0;
+}
+.my-qulification{
+    display: flex;
+    justify-content: space-around;
+}
+.spaces-left{
+    display: block;
+    width: 40%;
+}
+.my-education{
+    display: block;
+    
+}
+.spaces-right{
+    display: block;
+    width: 40%;
+}
+.my-experienc{
+    display: block;
+    flex-direction: column;
+
 }
