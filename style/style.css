@@ -1,38 +1,147 @@
-
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* header section css */
-nav{
+.header {
+    background-color: #ebd6bc;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
+
 }
-.text-title{
+
+.text-title {
     color: #181818;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: 45px;
     font-weight: 800;
 }
-.color{
+
+.color {
     color: orange;
 }
-nav > ul{
-    display: flex; 
-    align-items: center;   
+
+nav>ul {
+    display: flex;
+    align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
-    padding-left:12px ;
+    padding-left: 12px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
 }
-.buttoncolor{
+
+.buttoncolor {
     background-color: orange;
     color: var(--white-color, #FFF);
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
 
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+}
+
+.banner-lest {
+    justify-content: space-between;
+}
+
+.banner .picture {
+    width: 500px;
+}
+
+.banner-gr {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.banner-main {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 1px;
+}
+
+.bannaer-p {
+    display: flex;
+    width: 585px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+/* main section */
+main{
+    width: 1146px;
+    margin: 0 auto;
+}
+/* section about */
+
+.about{
+    border-radius: 10px;
+    background: #FFF8F3;
+    height: 550px;
+    }
+
+.about-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-dis {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 150px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
+    padding-bottom: 2px;
+    margin-bottom: 0;
+}
+.info-describtion{
+    margin-top: 0;
+}
+.skill{
+    padding-top: 50px;
+
+}
+.skill-do{
+    text-align: center;
+}
+.Skill-para{
+    padding: 0 150px;
+}
+.skill-tag{
+    display: flex;
+    padding-top: 30px;
+}
+.more-skill{
+    padding: 20px;
 }
