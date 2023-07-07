@@ -1,0 +1,38 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* header section css */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-title{
+    color: #181818;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 800;
+}
+.color{
+    color: orange;
+}
+nav > ul{
+    display: flex; 
+    align-items: center;   
+}
+nav li{
+    list-style: none;
+    padding-left:12px ;
+}
+nav a{
+    text-decoration: none;
+}
+.buttoncolor{
+    background-color: orange;
+    color: var(--white-color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+
+}
